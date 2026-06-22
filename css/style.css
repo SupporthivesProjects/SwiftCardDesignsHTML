@@ -394,10 +394,12 @@ html,body{
 .navbar-nav {
   gap: 32px;
 }
-.d-right-mo{
-  gap: 32px;
-  margin-left: 32px;
-  align-items: center;
+.d-right-mo {
+    gap: 32px;
+    margin-left: 32px;
+    align-items: center;
+    border-left: 1px solid #fff;
+    padding-left: 32px;
 }
 .navbar{
     padding: 24px 0px;
@@ -417,7 +419,9 @@ html,body{
     background: url(../img/drop.svg) no-repeat;
     width: 14px;
     height: 9px;
-    position: absolute;
+    position: unset;
+    transform: translate(0px, 4px) rotate(0deg);
+    transition: all .5s;
     right: -22px;
     top: 6px;
 }
@@ -678,8 +682,69 @@ html,body{
     left: 0;
     margin-top: 40px;
 }
+.dropdown-toggle.show::after {
+    right: -22px;
+    top: 4px;
+    transform: translate(0px, 4px) rotate(180deg);
+}
 
 /* ----------------------------------tc----------------------------------- */
+.erron-content h1{
+    color: var(--Grayscale-White, #FFF);
+    text-align: center;
+    font-family: "Google Sans Flex";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.erron-content p{
+    color: var(--Grayscale-400, #F4F4F4);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+    margin: auto;
+    margin-bottom: 24px;
+    width: 296px;
+    max-width: 100%;
+}
+.erron-content .border-button{
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    width: 199px;
+    max-width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+.error-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.erron-content {
+    width: 550px;
+    max-width: 100%;
+    margin: auto;
+}
+.erron-content .border-button:hover{
+    border-radius: 100px;
+    border: 1px solid var(--Grayscale-White, #FFF);
+}
+.erron-content .border-button:hover .btn{
+    border-radius: 70px;
+    background: var(--Grayscale-White, #FFF);
+    color: var(--Primary, #05676A);
+}
 .legal-bg video{
   clip-path: polygon(0% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%);
 }
@@ -1089,6 +1154,9 @@ header{
 
 }
 @media screen and (min-width: 991px) and (max-width: 999px) {
+  .logo-mo-div .navbar-brand img{
+    width: 230px;
+  }
   .navbar-nav {
     gap: 6px;
   }
@@ -1149,6 +1217,9 @@ header{
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1080px) {
+  .logo-mo-div .navbar-brand img{
+    width: 250px;
+  }
   .navbar-nav {
     gap: 6px;
   }

@@ -25,6 +25,26 @@
     background: url(../img/menu.svg) no-repeat;
     background-size: cover;
     background-position: center center;
+    width: 24px;
+    height: 24px;
+}
+.navbar-toggler.is-active .navbar-toggler-icon{
+    background: url(../img/crass-header.svg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 18px;
+    height: 18px;
+}
+.navbar-toggler{
+    width: 24px;
+    height: 24px;
+}
+.d-right-mo {
+    gap: 32px;
+    margin-left: 23px;
+    align-items: center;
+    border-left: 1px solid #fff;
+    padding-left: 0px;
 }
 header .container{
     padding: 0px 0px;
@@ -170,6 +190,7 @@ header{
     width: 173px;
     height: 30px;
 }
+
 }
 @media only screen and (max-width: 600px) {
     .user-cart-mo  .dropdown-menu[data-bs-popper]{
@@ -217,6 +238,39 @@ header{
 }
 
 @media only screen and (max-width: 600px){
+    .erron-content h1 {
+        color: var(--Grayscale-White, #FFF);
+        text-align: center;
+        font-family: "Google Sans Flex";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+        padding: 0px 70px;
+    }
+    .erron-content p {
+        color: var(--Grayscale-400, #F4F4F4);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145%;
+        margin: auto;
+        margin-bottom: 16px;
+        width: 296px;
+        max-width: 100%;
+    }
+    .error-section {
+        height: 509px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 82px;
+        padding-bottom: 24px;
+    }
     .legal-bg h1 {
         color: var(--Grayscale-White, #FFF);
         font-family: "Google Sans Flex";
@@ -247,6 +301,9 @@ header{
 }
 
 @media only screen and (max-width: 600px) {
+    .footer-addres {
+        display: block;
+    }
      .footer-logo img{
         width: 243px;
         height: 42px;
