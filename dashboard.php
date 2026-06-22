@@ -109,7 +109,28 @@
                     </div>
                     <!-- BILLING CONTENT -->
                     <div class="tab-pane fade" id="billing">
-                        Billing Content
+                        <div class="ac_tab">
+                            <div class="ac_tabinner bc_tabinner">
+                                <div class="ac_tabinnertop">
+                                    <div class="tabfirst_last">
+                                        <input type="text" class="form-control tab_textbox" id="" placeholder="100 Edenbridge Road">
+                                        <input type="text" class="form-control tab_textbox" id="" placeholder="London">
+                                        <input type="text" class="form-control tab_textbox" id="" placeholder="United Kingdom">
+                                    </div>
+                                    <div class="tabfirst_last">
+                                        <input type="text" class="form-control tab_textbox" id="" placeholder="Lincone Place">
+                                        <input type="text" class="form-control tab_textbox" id="" placeholder="London">
+                                        <div class="password-wrapper">
+                                            <input type="password" class="form-control tab_textbox" placeholder="B28 8PR">
+                                            <img src="./img/eye-close.png" class="toggle-eye" alt="toggle eye">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab_conbtnbar">
+                                    <button class="tab_conbtn">Update Account Details</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- ORDER HISTORY -->
                     <div class="tab-pane fade" id="orders">

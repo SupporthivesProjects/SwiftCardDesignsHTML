@@ -196,6 +196,9 @@
     gap: 24px;
     width: 754px;
 }
+.bc_tabinner{
+    align-items: center;
+}
 .dash_s1right .tab-content .tab-pane{
     width: 100%;
 }
@@ -232,6 +235,7 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
+    width: 100%;
 }
 .tabfirst_last{
     display: flex;
@@ -340,6 +344,9 @@
     }
     .dash_leftmain{
         text-align: center;
+    }
+    .bc_tabinner{
+        align-items: normal;
     }
     /* Dashboard End */
 }
