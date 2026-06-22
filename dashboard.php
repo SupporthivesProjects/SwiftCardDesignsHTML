@@ -134,7 +134,65 @@
                     </div>
                     <!-- ORDER HISTORY -->
                     <div class="tab-pane fade" id="orders">
-                        Order History Content
+                        <div class="oh_tab">
+                            <div class="oh_tabinner">
+                                <div class="table-responsive order-table-wrapper">
+    <table class="table mb-0 align-middle table-striped">
+        <thead>
+            <tr>
+                <th>Order #</th>
+                <th>Date</th>
+                <th>QTY</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>01.12.2023</td>
+                <td>x3</td>
+                <td>£199.75</td>
+                <td><a href="#">Order Details</a></td>
+            </tr>
+
+            <tr>
+                <td>12345</td>
+                <td>01.12.2023</td>
+                <td>x3</td>
+                <td>£199.75</td>
+                <td><a href="#">Order Details</a></td>
+            </tr>
+
+            <tr>
+                <td>12345</td>
+                <td>01.12.2023</td>
+                <td>x3</td>
+                <td>£199.75</td>
+                <td><a href="#">Order Details</a></td>
+            </tr>
+
+            <tr>
+                <td>12345</td>
+                <td>01.12.2023</td>
+                <td>x3</td>
+                <td>£199.75</td>
+                <td><a href="#">Order Details</a></td>
+            </tr>
+
+            <tr>
+                <td>12345</td>
+                <td>01.12.2023</td>
+                <td>x3</td>
+                <td>£199.75</td>
+                <td><a href="#">Order Details</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+                            </div>
+                        </div>
                     </div>
                     <!-- LOGOUT -->
                     <div class="tab-pane fade" id="logout">
