@@ -16,7 +16,7 @@
                     <p class="dash_s1subtitle">From your dashboard, update account info, password, billing and view past orders.</p>
                     <div class="dash_tabbtnbar">
                         <!-- Mobile Dropdown Button -->
-                        <div class="mobile-tabs d-lg-none position-relative">
+                        <div class="mobile-tabs desktop_none position-relative">
                             <button class="tab-toggle-btn" id="tabToggle">
                                 <span class="d-flex align-items-center gap-2">
                                     <img src="setting.svg" width="20">
@@ -54,7 +54,7 @@
 
 
                         <!-- Desktop Tabs -->
-                        <div class="nav desk_tabbtnmain">
+                        <div class="nav desk_tabbtnmain mobile_none">
                             <button class="nav-link active desk_tabbtn" data-bs-toggle="tab" data-bs-target="#account">
                                 Account Details
                             </button>
