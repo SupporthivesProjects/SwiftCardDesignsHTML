@@ -207,12 +207,14 @@
     border: 1px solid #066970;
     display: inline-flex;
     padding: 6px;
+    height: 57px;
     flex-direction: column;
     align-items: flex-end;
     cursor: pointer;
 }
 .tab_conbtnbar:hover{
     border: 2px solid #066970;
+    padding: 5px;
 }
 .tab_conbtn{
     display: flex;
@@ -359,15 +361,35 @@
 
 @media screen and (min-device-width: 1000px) and (max-device-width: 1099px) {}
 
-@media screen and (min-device-width: 1100px) and (max-device-width: 1199px) {}
+@media screen and (min-device-width: 1100px) and (max-device-width: 1199px) {
+    .dash_s1left{
+        background-position: 30%;
+    }
+}
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1299px) {}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1299px) {
+    .dash_s1left{
+        background-position: 40%;
+    }
+}
 
-@media screen and (min-device-width: 1300px) and (max-device-width: 1399px) {}
+@media screen and (min-device-width: 1300px) and (max-device-width: 1399px) {
+    .dash_s1left{
+        background-position: 40%;
+    }
+}
 
-@media screen and (min-device-width: 1400px) and (max-device-width: 1499px) {}
+@media screen and (min-device-width: 1400px) and (max-device-width: 1499px) {
+    .dash_s1left{
+        background-position: 40%;
+    }
+}
 
-@media screen and (min-device-width: 1500px) and (max-device-width: 1599px) {}
+@media screen and (min-device-width: 1500px) and (max-device-width: 1599px) {
+    .dash_s1left{
+        background-position: 40%;
+    }
+}
 
 @media screen and (min-device-width: 1600px) and (max-device-width: 1699px) {}
 
