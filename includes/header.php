@@ -43,7 +43,7 @@
             <img src="./img/logo-main.svg" alt="" class="img-fluid d-lg-block d-md-block d-none">
           </a>
           <div class="user-cart-mo d-block d-lg-none d-md-none">
-            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="./img/bag.svg" alt="" class="img-fluid"> <span class="count-cart">3</span>
             </button>
             <ul class="dropdown-menu dropdown-menu-cart">
@@ -144,7 +144,7 @@
               </li>
             </ul>
             <div class="d-flex d-right-mo" role="search">
-              <div class="nav-item dropdown d-currency-mo">
+              <div class="nav-item dropdown d-currency-mo dropdown-toggle-cur">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   GBP £
                 </a>
@@ -155,7 +155,7 @@
                 </ul>
               </div>
               <div class="dropdown dropdown-menu-cart">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle dropdown-toggle-cart" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="./img/bag.svg" alt="" class="img-fluid"> <span class="count-cart">3</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-cart">
