@@ -687,6 +687,20 @@ html,body{
     top: 4px;
     transform: translate(0px, 4px) rotate(180deg);
 }
+.dropdown-open .main-div::after{
+  content: "";
+  background: #000 !important;
+  inset: 0;
+  opacity: .5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100% !important;
+  height: 100vh;
+  pointer-events: none;
+}
 
 /* ----------------------------------tc----------------------------------- */
 .erron-content h1{
