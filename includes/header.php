@@ -233,7 +233,7 @@
                   </li>
                 </ul>
               </div>
-              <a class="btn btn-login"><img src="./img/user.svg" alt="" class="img-fluid"></a>
+              <a class="btn btn-login" href="dashboard.php"><img src="./img/user.svg" alt="" class="img-fluid"></a>
             </div>
           </div>
         </div>
