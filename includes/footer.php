@@ -110,28 +110,7 @@
             }
         });
     </script>
-    <script>
-        const dropdownBtns = document.querySelectorAll(
-            '.dropdown-toggle-cur, .dropdown-toggle-cart'
-        );
-
-        function updateOverlay() {
-            const anyOpen =
-                document.querySelector('.dropdown-menu.show') !== null;
-
-            document.body.classList.toggle('dropdown-open', anyOpen);
-        }
-
-        dropdownBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                setTimeout(updateOverlay, 50);
-            });
-        });
-
-        document.addEventListener('click', () => {
-            setTimeout(updateOverlay, 50);
-        });
-    </script>
+   
     <script>
       AOS.init();
     </script>
