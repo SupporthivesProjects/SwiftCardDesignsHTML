@@ -295,7 +295,7 @@
 }
 .order-table-wrapper{
     border: 1px solid #ddd;
-    border-radius: 25px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -317,12 +317,12 @@
 }
 
 .order-table-wrapper thead th:first-child{
-    border-top-left-radius: 25px;
+    border-top-left-radius: 20px;
     text-align: start;
 }
 
 .order-table-wrapper thead th:last-child{
-    border-top-right-radius: 25px;
+    border-top-right-radius: 20px;
 }
 
 .order-table-wrapper tbody td{
@@ -358,7 +358,7 @@
 }
 
 .order-table-wrapper .table-responsive{
-    border-radius: 25px;
+    border-radius: 20px;
 }
 /* Odd rows */
 .oder_tablemain tbody tr:nth-child(odd) td {
@@ -370,23 +370,68 @@
 .oder_tablemain tbody tr:nth-child(even) td {
     background-color: #F1F5F5; /* light green */
 }
-/* Mobile */
-@media(max-width:767px){
+/* Modal Css */
+.order-modal{
+    max-width:1050px;
+}
 
-    .order-table-wrapper{
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
+.order-modal-content{
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    padding: 0px 24px 24px 24px;
+    background-color: #F4F4F4;
+}
 
-    .order-table-wrapper table{
-        min-width: 650px;
-    }
-
-    .order-table-wrapper thead th,
-    .order-table-wrapper tbody td{
-        padding: 16px;
-        font-size: 15px;
-    }
+.order-card{
+    border-radius:10px;
+    overflow:hidden;
+}
+.order-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order-card .card-header{
+    background:#000;
+    color:#fff;
+    border-bottom:2px solid #00c8d7;
+    font-size:24px;
+    padding:14px 18px;
+}
+.status_card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.status_card p{
+    color: var(--Grayscale-900, #0E0E0E);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.status_card.active img, .status_card.active p{
+    opacity: 0.5;
+}
+.order_modalheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    border: none;
+}
+.order_titleleft{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.order-status{
+    gap: 16px;
 }
 /* Dashboard End */
 
@@ -451,6 +496,54 @@
     .bc_tabinner{
         align-items: normal;
     }
+    .oh_tab{
+        padding: 0px 0px 24px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .table_swipetext{
+        color: var(--Primary, #05676A);
+        font-family: "Google Sans Flex";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    .order-table-wrapper{
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .order-table-wrapper table{
+        min-width: 824px;
+    }
+    .order-table-wrapper thead th:first-child {
+        border-top-left-radius: 0px;
+    }
+    .order-table-wrapper thead th:last-child {
+        border-top-right-radius: 0px;
+    }
+    .order-table-wrapper .table-responsive{
+        border-radius: 0px;
+    }
+    .order-table-wrapper{
+        border-radius: 0px;
+    }
+    .table-responsive {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .table-responsive::-webkit-scrollbar {
+        display: none;
+    }
     /* Dashboard End */
 }
 
@@ -472,17 +565,26 @@
     .dash_s1left{
         background-position: 40%;
     }
+    .dash_s1left{
+        padding: 120px 45px 120px 80px;
+    }
 }
 
 @media screen and (min-device-width: 1300px) and (max-device-width: 1399px) {
     .dash_s1left{
         background-position: 40%;
     }
+    .dash_s1left{
+        padding: 120px 45px 120px 80px;
+    }
 }
 
 @media screen and (min-device-width: 1400px) and (max-device-width: 1499px) {
     .dash_s1left{
         background-position: 40%;
+    }
+    .dash_s1left{
+        padding: 120px 45px 120px 80px;
     }
 }
 
