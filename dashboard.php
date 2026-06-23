@@ -163,7 +163,7 @@
                                                 <td>01.12.2023</td>
                                                 <td class="text-center">x3</td>
                                                 <td class="text-center">£199.75</td>
-                                                <td class="text-center"><a href="./orderdetail.php">Order Details</a></td>
+                                                <td class="text-center"><a href="./orderdetails.php">Order Details</a></td>
                                             </tr>
                                             <tr>
                                                 <td>12345</td>
