@@ -11,7 +11,7 @@
                         <img src="./img/logof.svg" alt="" class="img-fluid">
                     </div>
                     <p>
-                        info@SwiftCartDesigns.Com <span>+111 234 567 890</span>
+                        info@SwiftCartDesigns.Com  <span>+111 234 567 890</span>
                     </p>
                     <p class="p-addres">
                         100 Edenbridge Road, Birmingham, United Kingdom, B28 8PR. 
