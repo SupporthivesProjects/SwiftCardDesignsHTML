@@ -374,14 +374,32 @@
 .order-modal{
     max-width:1050px;
 }
-
+.order_modalid{
+    color: var(--Grayscale-900, #0E0E0E);
+    font-family: "Google Sans Flex";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0px;
+}
 .order-modal-content{
     border-radius: 0px 0px 20px 20px;
     border: none;
     padding: 0px 24px 24px 24px;
     background-color: #F4F4F4;
+    gap: 32px;
+    margin-top: -1px;
 }
-
+.modal_closebtn{
+    padding: 0px !important;
+    height: 29px;
+    position: relative;
+    left: -8px;
+    top: -9px;
+    width: 29px;
+}
 .order-card{
     border-radius:10px;
     overflow:hidden;
@@ -393,11 +411,20 @@
     align-items: center;
 }
 .order-card .card-header{
-    background:#000;
-    color:#fff;
-    border-bottom:2px solid #00c8d7;
-    font-size:24px;
-    padding:14px 18px;
+    display: flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-bottom: 2px solid var(--Primary, #05676A);
+    background: var(--Grayscale-900, #0E0E0E);
+    color: var(--Grayscale-400, #F4F4F4);
+    font-family: "Sequel-Sans-13";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 410;
+    line-height: normal;
+    text-transform: capitalize;
 }
 .status_card{
     display: flex;
@@ -432,6 +459,85 @@
 }
 .order-status{
     gap: 16px;
+}
+.order_modalbody{
+    padding: 0px;
+}
+.modal_tablemain{
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.modal_table1{
+    width: calc(64.5% - 12px);
+}
+.modal_table2{
+    width: calc(35.5% - 12px);
+}
+.modal_table3{
+    width: calc(50% - 12px);
+}
+.modal_table4{
+    width: calc(50% - 12px);
+}
+
+.modal_table1inner thead tr th{
+    padding: 8px 24px;
+}
+.modal_table1inner thead tr th:first-child{
+    padding: 8px 0px 8px 24px;
+}
+.modal_table1inner tbody tr td{
+    padding: 5px 24px;
+    color: var(--Grayscale-600, #9B9B9B);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+}
+.modal_table1inner tbody tr td:first-child{
+    padding: 5px 0px 5px 24px;
+    color: var(--Grayscale-900, #0E0E0E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+}
+.modal_table2innerbody{
+    display: flex;
+    padding: 6px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-top: 1px solid var(--Grayscale-500, #E9E9E9);
+}
+.modal_table2innerbody:first-child{
+    border: none;
+}
+.card-body{
+    padding: 0px;
+}
+.modal_table2title{
+    color: var(--Grayscale-900, #0E0E0E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+    margin: 0px;
+}
+.modal_table2subtitle{
+    color: var(--Grayscale-600, #9B9B9B);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+    margin: 0px;
 }
 /* Dashboard End */
 
@@ -545,6 +651,112 @@
         display: none;
     }
     /* Dashboard End */
+
+    /* Order Details Start */
+    .detail_s1{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding: 24px 0px;
+        margin-top: 82px;
+    }
+    .detail_s1top{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0px 24px;
+        position: relative;
+    }
+    .order_modalid{
+        color: var(--Grayscale-900, #0E0E0E);
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .order-status{
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .status_card{
+        width: 100%;
+    }
+    .status_card p{
+        color: var(--Grayscale-900, #0E0E0E);
+        text-align: center;
+        font-family: "Helvetica Neue";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .status_card img{
+        height: 20px;
+    }
+    .detail_s1bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .detail_s1bottombottom{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0px 24px;
+    }
+    .modal_table1{
+        width: 100%;
+    }
+    .modal_table2{
+        width: 100%;
+    }
+    .modal_table3{
+        width: 100%;
+    }
+    .modal_table4{
+        width: 100%;
+    }
+    .modal_table1{
+        width: 100%;
+    }
+    .modal_table1_scroll{
+        overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;     /* Firefox */
+        padding: 0px 24px;
+    }
+    .modal_table1_scroll .card{
+        width: 800px;
+    }
+    .modal_table1_scroll::-webkit-scrollbar{
+        display: none;             /* Chrome, Safari */
+    }
+    .modal_table1inner{
+        min-width: 800px;
+    }
+    .order-card .card-header{
+        width: 800px;
+    }
+    .details_s1bottomtop{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .detail_backbtn{
+        padding: 0px;
+        border: none;
+        border-radius: 0px;
+    }
+    .detail_backbtn img{
+        height: 27px;
+        width: 27px;
+        position: absolute;
+        top: -4px;
+        right: 20px;
+    }
+    /* Order Details End */
 }
 
 @media screen and (min-device-width: 700px) and (max-device-width: 799px) {}
