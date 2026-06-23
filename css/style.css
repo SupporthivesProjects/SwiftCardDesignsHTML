@@ -700,6 +700,7 @@ html,body{
   width: 100% !important;
   height: 100vh;
   pointer-events: none;
+  z-index: 1025;
 }
 
 /* ----------------------------------tc----------------------------------- */
