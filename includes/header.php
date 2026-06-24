@@ -113,8 +113,8 @@
                                   <h2>£379.00</h2>
                                 </div>
                                 <div class="cart-btn">
-                                    <button class="btn btn-cart-cont">Continue Shopping</button>
-                                    <button class="btn btn-secure">secure Checkout</button>
+                                    <a href="checkout.php" class="btn btn-cart-cont">Continue Shopping</a>
+                                    <a href="payment-success.php" class="btn btn-secure">secure Checkout</a>
                                 </div>
                           </div>
                       </div>
@@ -225,8 +225,8 @@
                                   <h2>£379.00</h2>
                                 </div>
                                 <div class="cart-btn">
-                                    <button class="btn btn-cart-cont">Continue Shopping</button>
-                                    <button class="btn btn-secure">secure Checkout</button>
+                                    <a href="checkout.php" class="btn btn-cart-cont">Continue Shopping</a>
+                                    <a href="payment-success.php" class="btn btn-secure">secure Checkout</a>
                                 </div>
                           </div>
                       </div>
