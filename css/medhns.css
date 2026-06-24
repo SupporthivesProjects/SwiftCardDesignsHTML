@@ -671,8 +671,7 @@
 
 .register-success-video-wrapper,
 .register-error-video-wrapper {
-    height: 100vh;
-    overflow: hidden;
+    height: auto;
 }
 
 .register-success-video,
@@ -936,7 +935,7 @@
 @media (max-width: 575px) {
 
     .register-video-wrapper {
-        height: 200px;
+        height: auto;
     }
 
     .register-form-wrapper {
