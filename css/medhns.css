@@ -1,0 +1,1694 @@
+.register-video-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.register-row {
+    min-height: 100vh;
+}
+
+.register-form-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url("../img/register-BG.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 100% 100%;
+}
+
+.register-form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 561px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.register-title-wrapper {
+    width: 100%;
+}
+
+.register-title {
+    margin: 0;
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.register-form-row {
+    row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.register-input {
+    height: 56px;
+    max-height: 56px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: 1px solid #E9E9E9;
+    background: #FAFAFA;
+    color: #616161;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+}
+
+.register-input::placeholder {
+    color: #616161;
+    opacity: 1;
+}
+
+.register-input:focus {
+    border-color: #066970;
+    box-shadow: none;
+    background: #FAFAFA;
+}
+
+.register-terms {
+    width: 100%;
+}
+
+.register-checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.register-checkbox {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border-radius: 2px;
+    border: 2px solid #05676A;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.register-checkbox:focus {
+    box-shadow: none;
+    border-color: #05676A;
+}
+
+.register-checkbox:checked {
+    background-color: #05676A;
+    border-color: #05676A;
+}
+
+.register-checkbox-label {
+    color: #9B9B9B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.register-link {
+    text-decoration: none;
+}
+
+.register-captcha-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.register-captcha-image {
+    width: 100%;
+    max-width: 302px;
+    height: auto;
+}
+
+.register-action {
+    width: 100%;
+}
+
+.register-btn {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.register-btn-wrapper {
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    
+}
+
+.register-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+.register-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.register-divider::before,
+.register-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #E9E9E9;
+}
+
+.register-divider-text {
+    padding: 0 40px;
+    color: #8C8C8C;
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.register-login {
+    text-align: center;
+}
+
+.register-login-text {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.register-login-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* login page */
+
+.login-row {
+    min-height: 100vh;
+}
+
+.login-video-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block  ;
+}
+
+.login-form-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url("./img/register-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 561px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.login-title-wrapper {
+    width: 100%;
+}
+
+.login-title {
+    margin: 0;
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.login-form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form-row {
+    margin-bottom: 20px;
+}
+
+.login-form-row:last-child {
+    margin-bottom: 0;
+}
+
+.login-input {
+    height: 56px;
+    max-height: 56px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: 1px solid #E9E9E9;
+    background: #FAFAFA;
+    color: #616161;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+}
+
+.login-input::placeholder {
+    color: #616161;
+    opacity: 1;
+}
+
+.login-input:focus {
+    border-color: #066970;
+    box-shadow: none;
+    background: #FAFAFA;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.login-checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.login-checkbox {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border-radius: 2px;
+    border: 2px solid #05676A;
+}
+
+.login-checkbox-label {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.login-forgot-link {
+    color: #7B8CFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.login-captcha-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.login-captcha-image {
+    width: 100%;
+    max-width: 302px;
+    height: auto;
+}
+
+.login-action {
+    width: 100%;
+}
+
+.login-btn {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.login-btn-wrapper {
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    
+}
+
+.login-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+.login-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.login-divider::before,
+.login-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #E9E9E9;
+}
+
+.login-divider-text {
+    padding: 0 40px;
+    color: #8C8C8C;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 14px;
+}
+
+.login-register {
+    text-align: center;
+}
+
+.login-register-text {
+    color: #202020;
+    font-size: 14px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.login-register-link {
+    color: #7B8CFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.reset-password-image-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.reset-password-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.reset-password-form-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url("../img/RegisterBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reset-password-card {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.reset-password-title-wrapper {
+    text-align: center;
+}
+
+.reset-password-title {
+    margin-bottom: 12px;
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.reset-password-description {
+    margin: 0;
+    color: #8C8C8C;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 14px;
+}
+
+.reset-password-form {
+    width: 100%;
+}
+
+.reset-password-input-group {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.reset-password-input {
+    height: 56px;
+    padding: 20px 50px 20px 24px;
+    border-radius: 8px;
+    border: 1px solid #E9E9E9;
+    background: #FAFAFA;
+    box-shadow: none;
+}
+
+.reset-password-input:focus {
+    border-color: #066970;
+    box-shadow: none;
+}
+
+.reset-password-input-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #A0A0A0;
+    cursor: pointer;
+}
+
+.reset-password-action {
+    width: 100%;
+}
+
+.reset-password-btn-wrapper {
+    padding: 4px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+}
+
+.reset-password-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: none;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reset-success-image-wrapper,
+.reset-error-image-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.reset-success-image,
+.reset-error-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reset-success-content-wrapper,
+.reset-error-content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url("../img/RegisterBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reset-success-card,
+.reset-error-card {
+    width: 100%;
+    max-width: 560px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 24px;
+
+    text-align: center;
+}
+
+.reset-success-icon,
+.reset-error-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.reset-success-title,
+.reset-error-title {
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+
+    margin-bottom: 12px;
+}
+
+.reset-success-description,
+.reset-error-description {
+    color: #8C8C8C;
+    font-size: 14px;
+    margin: 0;
+}
+
+.reset-success-submit-action,
+.reset-error-submit-action {
+    width: 100%;
+}
+
+.reset-success-submit-btn,
+.reset-error-submit-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+}
+
+.reset-success-submit-action {
+    width: 100%;
+}
+
+.reset-success-submit-btn-wrapper {
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+}
+
+.reset-success-submit-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.reset-success-submit-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+.reset-error-submit-action {
+    width: 100%;
+}
+
+.reset-error-submit-btn-wrapper {
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+}
+
+.reset-error-submit-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.reset-error-submit-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+.register-success-video-wrapper,
+.register-error-video-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.register-success-video,
+.register-error-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.register-success-content-wrapper,
+.register-error-content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url("../img/RegisterBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.register-success-card,
+.register-error-card {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.register-success-icon,
+.register-error-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.register-success-title,
+.register-error-title {
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.register-success-description,
+.register-error-description {
+    color: #8C8C8C;
+    font-size: 14px;
+    margin: 0;
+}
+
+.register-success-submit-action,
+.register-error-submit-action {
+    width: 100%;
+}
+
+.register-success-submit-btn-wrapper,
+.register-error-submit-btn-wrapper {
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+}
+
+.register-success-submit-btn,
+.register-error-submit-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+}
+
+.register-success-submit-btn:hover,
+.register-error-submit-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+@media (max-width: 991px) {
+
+    .register-success-image-wrapper,
+    .register-error-image-wrapper {
+        height: auto;
+    }
+
+    .register-success-content-wrapper,
+    .register-error-content-wrapper {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .register-success-title,
+    .register-error-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .register-video-wrapper {
+        height: 300px;
+    }
+
+    .register-form-wrapper {
+        min-height: auto;
+        padding: 40px 24px;
+    }
+
+    .register-title {
+        font-size: 36px;
+    }
+
+    .register-card {
+        max-width: 100%;
+    }
+
+     .register-row {
+        min-height: auto;
+    }
+
+     .login-row {
+        min-height: auto;
+    }
+
+    .login-video-wrapper {
+        height: auto;
+    }
+
+    .login-video{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .login-form-wrapper {
+        min-height: auto;
+        padding: 32px 20px;
+    }
+
+    .login-title {
+        font-size: 36px;
+    }
+
+    .login-card {
+        max-width: 100%;
+    }
+    
+
+    .reset-password-image-wrapper {
+        height: auto;
+    }
+
+    .reset-password-form-wrapper {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .reset-password-card {
+        max-width: 100%;
+        gap: 24px;
+    }
+
+    .reset-password-title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .reset-password-description {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .reset-password-input-group {
+        margin-bottom: 16px;
+    }
+
+    .reset-password-input {
+        height: 48px;
+        padding: 12px 45px 12px 16px;
+        font-size: 14px;
+    }
+
+    .reset-password-input-icon {
+        right: 16px;
+        font-size: 14px;
+    }
+
+    .reset-password-btn-wrapper {
+        padding: 4px;
+    }
+
+    .reset-password-btn {
+        height: 48px;
+        font-size: 15px;
+    }
+
+    .reset-success-image-wrapper,
+    .reset-error-image-wrapper {
+        height: auto;
+    }
+
+    .reset-success-content-wrapper,
+    .reset-error-content-wrapper {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .reset-success-title,
+    .reset-error-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .register-video-wrapper {
+        height: 250px;
+    }
+
+    .register-form-wrapper {
+        padding: 32px 20px;
+    }
+
+    .register-title {
+        font-size: 32px;
+    }
+
+    .register-input {
+        height: 52px;
+        padding: 16px 20px;
+    }
+
+    .register-btn {
+        height: 52px;
+    }
+
+    .login-form-wrapper {
+        padding: 24px 16px;
+    }
+
+    .login-title {
+        font-size: 28px;
+    }
+
+    .login-options {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 575px) {
+
+    .register-video-wrapper {
+        height: 200px;
+    }
+
+    .register-form-wrapper {
+        padding: 24px 16px;
+    }
+
+    .register-title {
+        font-size: 28px;
+    }
+
+    .register-checkbox-label {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .register-divider-text {
+        padding: 0 20px;
+    }
+
+    .register-captcha-image {
+        max-width: 100%;
+    }
+
+
+    .login-form-wrapper {
+        padding: 24px 16px;
+    }
+
+    .login-title {
+        font-size: 28px;
+    }
+
+    .login-divider-text {
+        padding: 0 20px;
+    }
+}
+
+/* popup */
+/* Success & Error Popup Shared */
+
+.success-popup-overlay,
+.error-popup-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 9999;
+}
+
+.success-popup-card,
+.error-popup-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.success-popup-body,
+.error-popup-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    background-image: url("../img/Forgot Password.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Success */
+
+.success-popup-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.success-popup-content {
+    text-align: center;
+}
+
+.success-popup-title {
+    margin-bottom: 12px;
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.success-popup-description {
+    margin: 0;
+    color: #8C8C8C;
+    font-size: 14px;
+}
+
+.success-popup-action {
+    width: 100%;
+    text-align: center;
+}
+
+.success-popup-btn-wrapper {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+}
+
+.success-popup-btn {
+    min-width: 120px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+}
+
+.success-popup-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+/* Error */
+
+.error-popup-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.error-popup-content {
+    text-align: center;
+}
+
+.error-popup-title {
+    margin-bottom: 12px;
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.error-popup-description {
+    margin: 0;
+    color: #8C8C8C;
+    font-size: 14px;
+}
+
+.error-popup-action {
+    width: 100%;
+    text-align: center;
+}
+
+.error-popup-btn-wrapper {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+}
+
+.error-popup-btn {
+    min-width: 120px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+}
+
+.error-popup-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+/* forgot-password-popup */
+
+.forgot-password-popup-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 9999;
+}
+
+.forgot-password-popup-card {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.forgot-password-popup-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    background-image: url("../img/Forgot Password.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+
+.forgot-password-popup-close {
+    position: absolute;
+    top: 40px;
+    right: 24px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #E9E9E9;
+    color: #8C8C8C;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.forgot-password-popup-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.forgot-password-popup-content {
+    text-align: center;
+}
+
+.forgot-password-popup-title {
+    margin: 0 0 12px;
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.forgot-password-popup-description {
+    margin: 0;
+    color: #8C8C8C;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 14px;
+}
+
+.forgot-password-popup-form {
+    width: 100%;
+}
+
+.forgot-password-popup-input {
+    height: 56px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: 1px solid #E9E9E9;
+    background: #FAFAFA;
+    box-shadow: none;
+}
+
+.forgot-password-popup-input:focus {
+    border-color: #066970;
+    box-shadow: none;
+}
+
+.forgot-password-popup-terms {
+    width: 100%;
+}
+
+.forgot-password-popup-checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.forgot-password-popup-checkbox {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border-radius: 2px;
+    border: 2px solid #05676A;
+}
+
+.forgot-password-popup-checkbox-label {
+    color: #8C8C8C;
+    font-size: 14px;
+    text-align: left;
+}
+
+.forgot-password-popup-link {
+    text-decoration: none;
+}
+
+.forgot-password-popup-captcha-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.forgot-password-popup-captcha-image {
+    max-width: 302px;
+    width: 100%;
+}
+
+.forgot-password-popup-action {
+    width: 100%;
+}
+
+.forgot-password-popup-btn {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.forgot-password-popup-btn-wrapper {
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    
+}
+
+.forgot-password-popup-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+.forgot-password-popup-back-action {
+    display: none;
+}
+
+.forgot-password-video-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.forgot-password-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.forgot-password-content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url("../img/RegisterBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.forgot-password-card {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.forgot-password-page {
+    padding: 60px 0;
+}
+
+.forgot-password-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.forgot-password-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.forgot-password-content {
+    text-align: center;
+}
+
+.forgot-password-title {
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.forgot-password-description {
+    color: #8C8C8C;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.forgot-password-form,
+.forgot-password-terms,
+.forgot-password-back-action,
+.forgot-password-submit-action {
+    width: 100%;
+}
+
+.forgot-password-input {
+    height: 56px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: 1px solid #E9E9E9;
+    background: #FAFAFA;
+    box-shadow: none;
+}
+
+.forgot-password-checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.forgot-password-checkbox {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    border: 2px solid #05676A;
+}
+
+.forgot-password-checkbox-label {
+    color: #8C8C8C;
+    font-size: 14px;
+}
+
+.forgot-password-link {
+    text-decoration: none;
+}
+
+.forgot-password-captcha-wrapper {
+    text-align: center;
+}
+
+.forgot-password-captcha-image {
+    max-width: 302px;
+    width: 100%;
+}
+
+.forgot-password-back-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #FFF;
+    color: #066970;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.forgot-password-submit-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+@media (max-width: 991px) {
+
+    .forgot-password-video-wrapper {
+        height: auto;
+    }
+
+    .forgot-password-content-wrapper {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .forgot-password-title {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .forgot-password-page {
+        padding: 40px 0;
+    }
+
+    .forgot-password-title {
+        font-size: 24px;
+    }
+
+    .forgot-password-description {
+        font-size: 13px;
+    }
+
+    .forgot-password-input,
+    .forgot-password-back-btn,
+    .forgot-password-submit-btn {
+        height: 48px;
+    }
+
+    .forgot-password-popup-overlay {
+        display: none !important;
+    }
+
+    .forgot-password-popup-card {
+        width: 100%;
+        max-width: 420px;
+
+        min-height: auto;
+
+        border-radius: 16px;
+    }
+
+    .forgot-password-popup-body {
+        padding: 32px 20px;
+        gap: 20px;
+
+        background-size: cover;
+    }
+
+    .forgot-password-popup-close {
+        display: flex;
+    }
+
+    .forgot-password-popup-title {
+        font-size: 28px;
+    }
+
+    .forgot-password-popup-description {
+        font-size: 13px;
+    }
+
+    .forgot-password-popup-checkbox-group {
+        align-items: flex-start;
+    }
+
+    .forgot-password-popup-checkbox-label {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .forgot-password-popup-captcha-image {
+        max-width: 250px;
+    }
+
+    .forgot-password-popup-back-action {
+        display: block;
+        width: 100%;
+    }
+
+    .forgot-password-popup-back-btn {
+        width: 100%;
+        height: 56px;
+
+        border-radius: 100px;
+        border: 1px solid #066970;
+
+        background: #FFF;
+        color: #066970;
+    }
+
+}
+
+/* forgot passward - popup */
+.reset-success-popup-overlay,
+.reset-error-popup-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 9999;
+}
+
+.reset-success-popup-card,
+.reset-error-popup-card {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.reset-success-popup-body,
+.reset-error-popup-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    background-image: url("../img/Forgot Password.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+
+.reset-success-popup-close,
+.reset-error-popup-close {
+    position: absolute;
+    top: 40px;
+    right: 24px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #E9E9E9;
+    color: #8C8C8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+@media (max-width: 767px) {
+
+    .reset-success-popup-overlay,
+    .reset-error-popup-overlay {
+        display: none !important;
+    }
+
+}
+
+/* forgit-sucess */
+.reset-success-popup-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.reset-success-popup-content {
+    text-align: center;
+}
+
+.reset-success-popup-title {
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.reset-success-popup-description {
+    color: #8C8C8C;
+    font-size: 14px;
+    margin: 0;
+}
+
+.reset-success-popup-action {
+    width: 100%;
+    text-align: center;
+}
+
+.reset-success-popup-btn {
+    min-width: 120px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+}
+
+.reset-success-popup-btn-wrapper {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    
+}
+
+.reset-success-popup-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
+
+/* fprgot-error */
+.reset-error-popup-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.reset-error-popup-content {
+    text-align: center;
+}
+
+.reset-error-popup-title {
+    color: #202020;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.reset-error-popup-description {
+    color: #8C8C8C;
+    font-size: 14px;
+    margin: 0;
+}
+
+.reset-error-popup-action {
+    width: 100%;
+    text-align: center;
+}
+
+.reset-error-popup-btn {
+    min-width: 120px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    background: #066970;
+    color: #FFF;
+}
+
+.reset-error-popup-btn-wrapper {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 100px;
+    border: 1px solid #066970;
+    
+}
+
+.reset-error-popup-btn:hover {
+    background: #05585e;
+    border-color: #05585e;
+    color: #FFF;
+}
