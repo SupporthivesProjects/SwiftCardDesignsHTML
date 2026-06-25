@@ -1416,6 +1416,7 @@ clip-path: polygon(
     line-height: normal;
     text-transform: capitalize;
     margin-bottom: 0%;
+    text-align: center;
 }
 
 .about3_head span {
@@ -1434,6 +1435,7 @@ clip-path: polygon(
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0%;
+    text-align: center;
 }
 
 .about3_p {
@@ -1953,6 +1955,9 @@ clip-path: polygon(
     .index6_div {
         flex-direction: column;
         gap: 24px;
+    }
+    .index3_div_heading {
+        padding: 0px 24px;
     }
 
     .index6_div_check {
