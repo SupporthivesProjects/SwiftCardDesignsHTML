@@ -637,11 +637,37 @@
 
 @media only screen and (min-device-width: 1349px) and (max-device-width: 1439px) {}
 
-@media only screen and (min-device-width: 1440px) and (max-device-width: 1499px) {}
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1499px) {
+    .dm_product_card {
+    width: 100%;
+    max-width: 240px;
+}
 
-@media only screen and (min-device-width: 1500px) and (max-device-width: 1599px) {}
+.dm_btn{
+    padding: 10px 20px;
+}
+}
 
-@media only screen and (min-device-width: 1600px) and (max-device-width: 1799px) {}
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1599px) {
+    .dm_product_card {
+    width: 100%;
+    max-width: 275px;
+}
+
+.dm_btn{
+    padding: 10px 20px;
+}
+}
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1799px) {
+    .dm_product_card {
+    width: 100%;
+    max-width: 275px;
+}
+.dm_btn{
+    padding: 10px 20px;
+}
+}
 
 @media only screen and (min-device-width: 1800px) and (max-device-width: 1919px) {}
 
