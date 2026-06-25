@@ -1,0 +1,381 @@
+<?php include 'includes/header.php'; ?>
+
+   <section style="padding: 0%;">
+    <div class="about_outer">
+        <video autoplay muted loop playsinline class="about_vid mobile_none_sk">
+            <source src="./img/about_bg.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop playsinline class="about_vid desktop_none_sk">
+            <source src="./img/about_ph_bg.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="about_inner">
+                <h2 class="about_head">We <span>Design</span> innovative Websites That Feel Impossible To Ignore</h2>
+                <div class="about_p_btn">
+                    <p class="about_p">Lorem ipsum dolor sit amet consectetur. Porttitor risus arcu ornare
+                        aliquam duis massa viverra amet. Leo fringilla at elementum ante
+                        sed vel. Posuere luctus nulla eros platea vitae arcu enim convallis.</p>
+                    <div class="index_div_btn">
+                        <div class="indix_div_btn_g index_btn_100">
+                            <button class="btn index_btn_g index_btn_100">Upgrade your design skills</button>
+                        </div>
+                        <div class="index_div_btn_t index_btn_100">
+                            <button class="btn index_btn_trans index_btn_100">Bespoke design services</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about2_outer">
+        <div class="container">
+            <div class="about2_inner">
+                <div class="about2_heading">
+                    <div class="about2_subheading">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                            <circle cx="3" cy="3" r="3" fill="#05676A"/>
+                        </svg>
+                        <p class="about2_subhead">Behind The Design</p>
+                    </div>
+                    <h2 class="about2_head">A Team Built On Detail,<br class="mobile_none_sk">
+                        Imagination And <span>Good Design Instinct</span></h2>
+                </div>
+                <p class="about2_p">Lorem ipsum dolor sit amet consectetur. Dignissim netus euismod urna interdum platea tristique lectus at. Dolor odio iaculis dictum aenean velit nunc sem. Odio arcu mauris eu massa mattis pretium. Tellus elementum nisl id molestie dolor nec convallis pharetra.
+                    <br><br>
+                montes. Feugiat egestas diam sit nisi amet mauris odio adipiscing at. Diam viverra urna vulputate enim. Feugiat quisque ornare orci pulvinar pellentesque nunc in duis. Ornare nisl fringilla amet quis aenean aliquet. Sed cursus nulla sed sed ut at. Nam nec tristique.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about3_outer">
+        <video autoplay muted loop playsinline class="about3_vid mobile_none_sk">
+            <source src="./img/about3_bg.mp4" type="video/mp4">
+        </video>
+        <video autoplay muted loop playsinline class="about3_vid desktop_none_sk">
+            <source src="./img/about3_ph_bg.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="about3_inner">
+                <div class="about3_heading">
+                    <div class="about3_subheading">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                            <circle cx="3" cy="3" r="3" fill="#0AAFB6"/>
+                        </svg>
+                        <p class="about3_subhead">The Team Behind The Screens</p>
+                    </div>
+                    <h2 class="about3_head"><span>Creative People</span> With A Sharp Eye For What Works</h2>
+                </div>
+                <p class="about3_p">Lorem ipsum dolor sit amet consectetur. Dignissim netus euismod urna interdum platea tristique lectus at. Dolor odio iaculis dictum aenean velit nunc sem. Odio arcu mauris eu massa mattis pretium. Tellus elementum nisl id molestie dolor nec convallis pharetra montes. Feugiat egestas diam sit nisi amet mauris odio adipiscing at.</p>
+                <div class="indix_div_btn_g">
+                    <button class="btn index_btn_g">Become a web designer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index3_outer">
+        <div class="container">
+            <div class="index3_inner_main">
+                <div class="index3_inner">
+                    <div class="index3_main">
+                        <div class="index3_folder">
+                            <img src="./img/index3_img1.png" alt="" class="index3_img1 img-fluid">
+                            <img src="./img/index3_fo_rec.png" alt="" class="img-fluid">
+                            <div class="index3_fo_div">
+                                <h2 class="index3_fo_head">User Interface</h2>
+                                <p class="index3_fo_p">Lorem ipsum dolor sit amet consectetur. Hac imperdiet aliquet nulla elementum vel. Interdum nisi mi ornare consequat. Ut lacus mollis.</p>
+                            </div>
+                        </div>
+                        <div class="index3_folder">
+                            <img src="./img/index3_img2.png" alt="" class="index3_img1 img-fluid">
+                            <img src="./img/index3_fo_rec.png" alt="" class="img-fluid">
+                            <div class="index3_fo_div">
+                                <h2 class="index3_fo_head">User Experience</h2>
+                                <p class="index3_fo_p">Lorem ipsum dolor sit amet consectetur. Hac imperdiet aliquet nulla elementum vel. Interdum nisi mi ornare consequat. Ut lacus mollis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index3_div">
+                        <div class="index3_div_folder_black">
+                            <video src="./img/index2_black_triangle.mp4" class="index3_folder_vid" autoplay loop muted></video>
+                            <div class="index3_div_heading">
+                                <div class="index3_div_divinn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                                        <circle cx="3" cy="3" r="3" fill="#0AAFB6"/>
+                                    </svg>
+                                    <p class="index3_div_subhead">need bespoke designs?</p>
+                                </div>
+                                <h2 class="index3_div_head">Lets discuss your design needs now</h2>
+                            </div>
+                            <div class="index3_div_contact">
+                                <div class="index3_div_main_div">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                                        <path d="M7.875 12.375L21.2193 21.6133C21.9898 22.1468 23.0102 22.1468 23.7807 21.6133L37.125 12.375M9 36H36C38.4853 36 40.5 33.9853 40.5 31.5V13.5C40.5 11.0147 38.4853 9 36 9H9C6.51472 9 4.5 11.0147 4.5 13.5V31.5C4.5 33.9853 6.51472 36 9 36Z" stroke="#05676A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <div class="index_div_con_heading">
+                                        <p class="index_div_con_p">Email:</p>
+                                        <p class="index_div_con_p2">info@SwiftCartDesigns.Com</p>
+                                    </div>
+                                </div>
+                                <div class="index3_div_main_div">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                                        <path d="M38.7437 35.1956C38.7437 35.1956 36.5712 37.3294 36.0388 37.9549C35.1715 38.8804 34.1497 39.3175 32.8101 39.3175C32.6813 39.3175 32.5439 39.3175 32.4151 39.3089C29.8648 39.1461 27.4948 38.152 25.7173 37.3037C20.8571 34.9556 16.5894 31.6222 13.043 27.3974C10.1148 23.8754 8.15702 20.6191 6.86039 17.1228C6.06181 14.989 5.76985 13.3265 5.89866 11.7583C5.98453 10.7557 6.37094 9.92446 7.08365 9.21321L10.0118 6.29104C10.4326 5.89685 10.8791 5.68262 11.317 5.68262C11.858 5.68262 12.2959 6.00825 12.5707 6.28247C12.5793 6.29104 12.5879 6.29961 12.5965 6.30818C13.1203 6.79664 13.6183 7.30223 14.1421 7.8421C14.4083 8.11632 14.6831 8.39054 14.9579 8.67333L17.3021 11.0128C18.2123 11.9211 18.2123 12.7609 17.3021 13.6693C17.0531 13.9178 16.8126 14.1663 16.5636 14.4063C15.8423 15.1432 16.4089 14.5778 15.6619 15.2462C15.6447 15.2633 15.6275 15.2719 15.619 15.289C14.8805 16.026 15.0179 16.7458 15.1724 17.2343C15.181 17.26 15.1896 17.2857 15.1982 17.3114C15.8079 18.7853 16.6666 20.1736 17.9718 21.8275L17.9804 21.836C20.3504 24.7496 22.8491 27.0205 25.6056 28.7601C25.9576 28.9829 26.3183 29.1628 26.6617 29.3342C26.9709 29.4885 27.2628 29.6342 27.5119 29.7884C27.5462 29.8056 27.5805 29.8313 27.6149 29.8484C27.9069 29.9941 28.1816 30.0626 28.465 30.0626C29.1777 30.0626 29.6242 29.617 29.7702 29.4713L31.4534 27.7916C31.7453 27.5003 32.209 27.1489 32.75 27.1489C33.2824 27.1489 33.7203 27.4831 33.9865 27.7745C33.9951 27.7831 33.9951 27.7831 34.0037 27.7916L38.7351 32.5134C39.6195 33.3874 38.7437 35.1956 38.7437 35.1956Z" stroke="#05676A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <div class="index_div_con_heading">
+                                        <p class="index_div_con_p">TEL:</p>
+                                        <p class="index_div_con_p2">+44 123 456 789</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="index3_inner2">
+                    <div class="index3_inner2_main">
+                        <div class="index3_2_head_para">
+                            <div class="index3_2_heading">
+                                <div class="index3_2_subhead_div">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                                        <circle cx="3" cy="3" r="3" fill="#05676A"/>
+                                    </svg>
+                                    <p class="index3_2_subhead">Our bespoke services</p>
+                                </div>
+                                <h3 class="index3_2_head"><span>Web Design</span> That Gives Your
+                                    Brand More Room To Stand Out</h3>
+                            </div>
+                            <p class="index3_2_p">Lorem ipsum dolor sit amet consectetur. Vitae orci sapien ullamcorper vitae. Quam tellus senectus scelerisque nec. Feugiat sit vel imperdiet quis interdum. Dolor sed nisl a mattis tellus cras at sociis. Risus consequat velit tristique purus maecenas quam in aliquet at. Cursus id nisl.</p>
+                        </div>
+                        <div class="indix_div_btn_g">
+                            <button class="btn index_btn_g">Request bespoke design services</button>
+                        </div>
+                    </div>
+                    <div class="index3_main">
+                        <div class="index3_folder">
+                            <img src="./img/index3_img3.png" alt="" class="index3_img1 img-fluid">
+                            <img src="./img/index3_fo_rec.png" alt="" class="img-fluid">
+                            <div class="index3_fo_div">
+                                <h2 class="index3_fo_head">Illustration</h2>
+                                <p class="index3_fo_p">Lorem ipsum dolor sit amet consectetur. Hac imperdiet aliquet nulla elementum vel. Interdum nisi mi ornare consequat. Ut lacus mollis.</p>
+                            </div>
+                        </div>
+                        <div class="index3_folder">
+                            <img src="./img/index3_img4.png" alt="" class="index3_img1 img-fluid">
+                            <img src="./img/index3_fo_rec.png" alt="" class="img-fluid">
+                            <div class="index3_fo_div">
+                                <h2 class="index3_fo_head">E-commerce</h2>
+                                <p class="index3_fo_p">Lorem ipsum dolor sit amet consectetur. Hac imperdiet aliquet nulla elementum vel. Interdum nisi mi ornare consequat. Ut lacus mollis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index2_outer">
+        <img src="./img/about4_img.png" class="index2_vid mobile_none_sk"></img>
+        <img src="./img/about4_img_ph.png" class="index2_vid desktop_none_sk"></img>
+        <div class="index2_inner">
+            <div class="index2_heading">
+                <div class="index2_subhead_div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                        <circle cx="3" cy="3" r="3" fill="#05676A"/>
+                    </svg>
+                    <p class="index2_subhead">Why We Design This Way</p>
+                </div>
+                <h2 class="index2_head">Because<span> Good Design </span>Should Feel Effortless</h2>
+            </div>
+            <p class="index2_p">Lorem ipsum dolor sit amet consectetur. Pellentesque eget lorem facilisi ante. Amet turpis ac enim dictum in sit ipsum. Neque sagittis tellus donec nulla nisl ullamcorper. Massa fermentum nulla eleifend pharetra sed risus pharetra. 
+                <br><br>
+                Et volutpat sit diam non ornare. Erat cursus purus faucibus quam cursus odio quam nunc. Eget a bibendum quisque consequat commodo fusce. Magna
+                enim amet praesent massa volutpat a mattis eget. Massa feugiat odio imperdie</p>
+            <div class="indix_div_btn_g">
+                <button class="btn index_btn_g">Start A Design Enquiry</button>
+            </div>
+        </div>
+        <div class="index2_triangle_div">
+            <video src="./img/index2_black_triangle.mp4" class="index2_vid2 mobile_none_sk" autoplay muted loop></video>
+            <video src="./img/index2_vid_ph_tri.mp4" class="index2_vid2 desktop_none_Sk" autoplay muted loop></video>
+        </div>
+    </div>
+    <div class="about4_outer">
+        <div class="container">
+            <div class="about4_inner">
+                <div class="about4_heading">
+                    <div class="about4_subheading">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                            <circle cx="3" cy="3" r="3" fill="#0AAFB6"/>
+                        </svg>
+                        <p class="about4_subhead">Why The Work Stands Out</p>
+                    </div>
+                    <h2 class="about4_head">Design That Brings More Confidence To Every Screen</h2>
+                </div>
+                <div class="about4_main">
+                    <p class="about4_p2">
+                        Lorem ipsum dolor sit amet consectetur. Sit tristique praesent egestas sem nec. Amet nisi quam nibh consequat ullamcorper. Praesent ornare neque magna vestibulum aenean viverra. Id hendrerit feugiat non nulla eget sit.
+                        <br><br>
+                        pellentesque dictum. Felis id hac varius ipsum in a rhoncus mus maecenas. Ullamcorper fusce ultricies purus consectetur egestas. Sem libero ut nam euismod sagittis et dictum. Morbi eget et tempus tellus elit donec. Quam 
+                        <br><br>
+                        tincidunt vitae nullam enim enim vel sed lectus. Pharetra amet senectus fames vel urna in aenean. Id sit sagittis egestas blandit nunc. Dolor hendrerit mattis ultrices maecenas consectetur. Quam enim lacus quam consequat enim. Faucibus amet leo et.
+                        A aliquam purus dui adipiscing ac tincidunt tincidunt sed phasellus. Suscipit sit et facilisis ante malesuada lectus sed mauris ut.
+                    </p>
+                    <div class="about4_main_inn">
+                        <div class="about4_main_inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15.9497 6.43301C16.1913 7.05801 16.7913 7.49967 17.4997 7.49967C18.4163 7.49967 19.1663 6.74967 19.1663 5.83301C19.1663 4.91634 18.4163 4.16634 17.4997 4.16634C16.7913 4.16634 16.1913 4.60801 15.9497 5.23301C15.908 5.22467 15.8747 5.20801 15.833 5.20801H12.4997V4.58301C12.4997 3.89967 11.933 3.33301 11.2497 3.33301H8.74967C8.06634 3.33301 7.49967 3.89967 7.49967 4.58301V5.20801H4.16634C4.12467 5.20801 4.09134 5.22467 4.04967 5.23301C3.80801 4.60801 3.20801 4.16634 2.49967 4.16634C1.58301 4.16634 0.833008 4.91634 0.833008 5.83301C0.833008 6.74967 1.58301 7.49967 2.49967 7.49967C3.20801 7.49967 3.80801 7.05801 4.04967 6.43301C4.09134 6.44134 4.12467 6.45801 4.16634 6.45801H6.30801C4.59967 7.72467 3.54134 9.82467 3.54134 12.083C3.54134 12.2247 3.54967 12.358 3.56634 12.4997H3.33301C2.64134 12.4997 2.08301 13.058 2.08301 13.7497V15.4163C2.08301 16.108 2.64134 16.6663 3.33301 16.6663H4.99967C5.18301 16.6663 5.34967 16.6247 5.50801 16.5497C5.94134 16.3663 6.24967 15.9247 6.24967 15.4163V13.7497C6.24967 13.058 5.69134 12.4997 4.99967 12.4997H4.80801C4.80801 12.4747 4.81634 12.4497 4.81634 12.4247C4.79967 12.308 4.79967 12.1997 4.79967 12.083C4.79967 10.0247 5.85801 8.14134 7.51634 7.16634C7.54967 7.80801 8.09134 8.33301 8.74967 8.33301H11.2497C11.908 8.33301 12.4497 7.80801 12.4913 7.16634C14.1497 8.14134 15.208 10.033 15.208 12.083C15.208 12.1997 15.1997 12.308 15.1913 12.4247C15.1913 12.4497 15.1997 12.4747 15.1997 12.4997H14.9997C14.308 12.4997 13.7497 13.058 13.7497 13.7497V15.4163C13.7497 15.9247 14.058 16.3663 14.4913 16.5497C14.6497 16.6247 14.8163 16.6663 14.9997 16.6663H16.6663C17.358 16.6663 17.9163 16.108 17.9163 15.4163V13.7497C17.9163 13.058 17.358 12.4997 16.6663 12.4997H16.433C16.4497 12.358 16.458 12.2247 16.458 12.083C16.458 9.82467 15.3997 7.72467 13.6913 6.45801H15.833C15.8747 6.45801 15.908 6.44134 15.9497 6.43301Z" fill="#0AAFB6"/>
+                            </svg>
+                            <p class="about4_p3">Lorem ipsum dolor sit amet consectetur. Eget eu porttitor laoreet diam. Cras duis at viverra volutpat sit nunc. Elit eu blandit purus.</p>
+                        </div>
+                        <div class="about4_main_inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.2505 6.25007L15.0088 7.49173L12.5088 4.99173L13.7505 3.75007C14.1005 3.40007 14.5505 3.2334 15.0005 3.2334C15.4505 3.2334 15.9005 3.40007 16.2505 3.75007C16.9421 4.44173 16.9421 5.5584 16.2505 6.25007Z" fill="#0AAFB6"/>
+                                <path d="M14.4245 8.08301L5.41621 17.083C4.72454 17.7747 3.60788 17.7747 2.91621 17.083C2.22454 16.3913 2.22454 15.2747 2.91621 14.583L11.9245 5.58301L14.4245 8.08301Z" fill="#0AAFB6"/>
+                                <path d="M8.29176 2.91644L8.63343 1.7581C8.66676 1.64977 8.63343 1.5331 8.55843 1.44977C8.48343 1.36644 8.3501 1.3331 8.24176 1.36644L7.08343 1.7081L5.9251 1.36644C5.81676 1.3331 5.7001 1.36644 5.61676 1.44144C5.53343 1.52477 5.50843 1.64144 5.54176 1.74977L5.8751 2.91644L5.53343 4.07477C5.5001 4.1831 5.53343 4.29977 5.60843 4.3831C5.69176 4.46644 5.80843 4.49144 5.91676 4.4581L7.08343 4.12477L8.24176 4.46644C8.2751 4.47477 8.3001 4.4831 8.33343 4.4831C8.41676 4.4831 8.49176 4.44977 8.55843 4.39144C8.64176 4.3081 8.66676 4.19144 8.63343 4.0831L8.29176 2.91644Z" fill="#0AAFB6"/>
+                                <path d="M4.95875 7.91644L5.30042 6.7581C5.33375 6.64977 5.30042 6.5331 5.22542 6.44977C5.14209 6.36644 5.02542 6.34144 4.91709 6.37477L3.75042 6.7081L2.59209 6.36644C2.48375 6.3331 2.36709 6.36644 2.28375 6.44144C2.20042 6.52477 2.17542 6.64144 2.20875 6.74977L2.54209 7.91644L2.20042 9.07477C2.16709 9.1831 2.20042 9.29977 2.27542 9.3831C2.35875 9.46644 2.47542 9.49144 2.58375 9.4581L3.74209 9.11644L4.90042 9.4581C4.92542 9.46644 4.95875 9.46644 4.99209 9.46644C5.07542 9.46644 5.15042 9.4331 5.21709 9.37477C5.30042 9.29144 5.32542 9.17477 5.29209 9.06644L4.95875 7.91644Z" fill="#0AAFB6"/>
+                                <path d="M17.4581 12.0833L17.7998 10.925C17.8331 10.8166 17.7998 10.7 17.7248 10.6166C17.6414 10.5333 17.5248 10.5083 17.4164 10.5416L16.2581 10.8833L15.0998 10.5416C14.9914 10.5083 14.8748 10.5416 14.7914 10.6166C14.7081 10.7 14.6831 10.8166 14.7164 10.925L15.0581 12.0833L14.7164 13.2416C14.6831 13.35 14.7164 13.4666 14.7914 13.55C14.8748 13.6333 14.9914 13.6583 15.0998 13.625L16.2581 13.2833L17.4164 13.625C17.4414 13.6333 17.4748 13.6333 17.5081 13.6333C17.5914 13.6333 17.6664 13.6 17.7331 13.5416C17.8164 13.4583 17.8414 13.3416 17.8081 13.2333L17.4581 12.0833Z" fill="#0AAFB6"/>
+                            </svg>
+                            <p class="about4_p3">Lorem ipsum dolor sit amet consectetur. Eget eu porttitor laoreet diam. Cras duis at viverra volutpat sit nunc. Elit eu blandit purus.</p>
+                        </div>
+                        <div class="about4_main_inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M15.8337 5.83301C15.717 5.83301 15.6253 5.92467 15.6253 6.04134V9.99967C15.6253 10.3413 15.342 10.6247 15.0003 10.6247C14.6587 10.6247 14.3753 10.3413 14.3753 9.99967V6.04134C14.3753 5.92467 14.2837 5.83301 14.167 5.83301H12.5003C12.3837 5.83301 12.292 5.92467 12.292 6.04134V7.99967C12.292 8.34134 12.0087 8.62467 11.667 8.62467C11.3253 8.62467 11.042 8.34134 11.042 7.99967V6.04134C11.042 5.92467 10.9503 5.83301 10.8337 5.83301H9.20033C9.08366 5.83301 8.99199 5.92467 8.99199 6.04134L8.95866 10.008C8.95866 10.3497 8.67533 10.6247 8.33366 10.6247C8.33366 10.6247 8.33366 10.6247 8.32533 10.6247C7.98366 10.6247 7.70866 10.3413 7.70866 9.99134L7.74199 6.04134C7.74199 5.92467 7.65033 5.83301 7.53366 5.83301H5.83366C5.71699 5.83301 5.62533 5.92467 5.62533 6.04134V8.99967C5.62533 9.34134 5.34199 9.62467 5.00033 9.62467C4.65866 9.62467 4.37533 9.34134 4.37533 8.99967V6.04134C4.37533 5.92467 4.28366 5.83301 4.16699 5.83301C2.78366 5.83301 1.66699 6.94967 1.66699 8.33301V11.6663C1.66699 13.0497 2.78366 14.1663 4.16699 14.1663H15.8337C17.217 14.1663 18.3337 13.0497 18.3337 11.6663V8.33301C18.3337 6.94967 17.217 5.83301 15.8337 5.83301Z" fill="#0AAFB6"/>
+                            </svg>
+                            <p class="about4_p3">Lorem ipsum dolor sit amet consectetur. Eget eu porttitor laoreet diam. Cras duis at viverra volutpat sit nunc. Elit eu blandit purus.</p>
+                        </div>
+                        <div class="about4_main_inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M18.3331 13.7503V16.2503C18.3331 17.4003 17.3998 18.3337 16.2498 18.3337H10.2998C9.55811 18.3337 9.19144 17.442 9.70811 16.917L14.5998 11.917C14.7581 11.7587 14.9748 11.667 15.1914 11.667H16.2498C17.3998 11.667 18.3331 12.6003 18.3331 13.7503Z" fill="#0AAFB6"/>
+                                <path d="M15.3085 9.40827L13.0502 11.6666L11.0002 13.7083C10.4752 14.2333 9.5752 13.8666 9.5752 13.1249C9.5752 10.4499 9.5752 6.04994 9.5752 6.04994C9.5752 5.82494 9.66686 5.6166 9.81686 5.45827L10.5835 4.6916C11.4002 3.87493 12.7169 3.87493 13.5335 4.6916L15.3002 6.45827C16.1252 7.27493 16.1252 8.5916 15.3085 9.40827Z" fill="#0AAFB6"/>
+                                <path d="M6.25033 1.66699H3.75033C2.50033 1.66699 1.66699 2.50033 1.66699 3.75033V15.0003C1.66699 15.2253 1.69199 15.4503 1.73366 15.667C1.75866 15.7753 1.78366 15.8837 1.81699 15.992C1.85866 16.117 1.90033 16.242 1.95033 16.3587C1.95866 16.367 1.95866 16.3753 1.95866 16.3753C1.96699 16.3753 1.96699 16.3753 1.95866 16.3837C2.07533 16.617 2.20866 16.842 2.36699 17.0503C2.45866 17.1587 2.55033 17.2587 2.64199 17.3587C2.73366 17.4587 2.83366 17.542 2.94199 17.6253L2.95033 17.6337C3.15866 17.792 3.38366 17.9253 3.61699 18.042C3.62533 18.0337 3.62533 18.0337 3.62533 18.042C3.75033 18.1003 3.87533 18.142 4.00866 18.1837C4.11699 18.217 4.22533 18.242 4.33366 18.267C4.55033 18.3087 4.77533 18.3337 5.00033 18.3337C5.34199 18.3337 5.69199 18.2837 6.01699 18.1753C6.10866 18.142 6.20033 18.1087 6.29199 18.067C6.58366 17.9503 6.86699 17.7837 7.11699 17.567C7.19199 17.5087 7.27533 17.4337 7.35033 17.3587L7.38366 17.3253C7.96699 16.7253 8.33366 15.9003 8.33366 15.0003V3.75033C8.33366 2.50033 7.50033 1.66699 6.25033 1.66699ZM5.00033 16.2503C4.30866 16.2503 3.75033 15.692 3.75033 15.0003C3.75033 14.3087 4.30866 13.7503 5.00033 13.7503C5.69199 13.7503 6.25033 14.3087 6.25033 15.0003C6.25033 15.692 5.69199 16.2503 5.00033 16.2503Z" fill="#0AAFB6"/>
+                            </svg>
+                            <p class="about4_p3">Lorem ipsum dolor sit amet consectetur. Eget eu porttitor laoreet diam. Cras duis at viverra volutpat sit nunc. Elit eu blandit purus.</p>
+                        </div>
+                        <div class="about4_main_inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M17.1253 7.86621H16.2086C16.0836 7.86621 15.9586 7.89121 15.8419 7.92454L11.6836 3.76621C12.0836 3.24954 12.0503 2.50788 11.5753 2.04121L10.9253 1.39121C10.4336 0.899544 9.56693 0.899544 9.06693 1.39121L8.41693 2.04121C7.95026 2.50788 7.91693 3.24954 8.31693 3.76621L4.15859 7.92454C4.04193 7.89121 3.91693 7.86621 3.79193 7.86621H2.87526C2.15026 7.86621 1.55859 8.45788 1.55859 9.18288V10.0995C1.55859 10.8245 2.15026 11.4162 2.87526 11.4162H3.79193C4.51693 11.4162 5.10859 10.8245 5.10859 10.0995V9.18288C5.10859 9.05788 5.08359 8.93288 5.05026 8.81621L9.20859 4.65788C9.43359 4.83288 9.71693 4.92454 10.0003 4.92454C10.2836 4.92454 10.5669 4.82454 10.8003 4.64954L14.9586 8.80788C14.9253 8.92454 14.9003 9.04955 14.9003 9.17455V10.0912C14.9003 10.8162 15.4919 11.4079 16.2169 11.4079H17.1336C17.8586 11.4079 18.4503 10.8162 18.4503 10.0912V9.17455C18.4336 8.44954 17.8503 7.86621 17.1253 7.86621Z" fill="#0AAFB6"/>
+                                <path d="M13.1252 13.7917L11.7585 15H8.20854L6.84187 13.7917C6.0502 13.1417 6.0502 12.6417 6.6502 11.875L9.05854 8.825C9.2252 8.61667 9.41687 8.475 9.63354 8.4C9.85854 8.325 10.1002 8.325 10.3335 8.4C10.5419 8.475 10.7335 8.61667 10.9085 8.825L13.3169 11.875C13.9169 12.6333 13.8919 13.1083 13.1252 13.7917Z" fill="#0AAFB6"/>
+                                <path d="M11.0751 18.3329H8.91674C8.15007 18.3329 7.57507 17.7079 7.72507 17.0412L7.98341 15.8829C8.03341 15.6495 8.24174 15.4912 8.47507 15.4912H11.5167C11.7501 15.4912 11.9501 15.6495 12.0084 15.8829L12.2667 17.0412C12.4334 17.7495 11.8917 18.3329 11.0751 18.3329Z" fill="#0AAFB6"/>
+                            </svg>
+                            <p class="about4_p3">Lorem ipsum dolor sit amet consectetur. Eget eu porttitor laoreet diam. Cras duis at viverra volutpat sit nunc. Elit eu blandit purus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about5_outer">
+        <img src="./img/abot_last_bg_ph.png" alt="" class="img-fluid about5_phone_img desktop_none_sk">
+        <div class="about5_inner">
+            <div class="about5_heading">
+                <div class="about5_subheading">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                        <circle cx="3" cy="3" r="3" fill="#05676A"/>
+                    </svg>
+                    <p class="about5_subhead">Got a few Questions?</p>
+                </div>
+                <h2 class="about5_head">We’ve Got the Answers</h2>
+            </div>
+            <div class="indix_div_btn_g">
+                <button class="btn index_btn_g">Start A Design Enquiry</button>
+            </div>
+        </div>
+        <div class="about5_inner2">
+            <div class="accordion about5_accordion" id="faqAccordion">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq1">
+
+                            Frequently asked questions
+                        </button>
+                    </h2>
+
+                    <div id="faq1" class="accordion-collapse collapse show"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur. Condimentum rhoncus amet tincidunt lacus sed consequat pretium et.
+                            Dui etiam viverra nunc ut non eu ut leo nec.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+
+                            Frequently asked questions
+                        </button>
+                    </h2>
+
+                    <div id="faq2" class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur. Condimentum rhoncus amet tincidunt lacus sed consequat pretium et.
+                            Dui etiam viverra nunc ut non eu ut leo nec.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+
+                            Frequently asked questions
+                        </button>
+                    </h2>
+
+                    <div id="faq3" class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur. Condimentum rhoncus amet tincidunt lacus sed consequat pretium et.
+                            Dui etiam viverra nunc ut non eu ut leo nec.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq4">
+
+                            Frequently asked questions
+                        </button>
+                    </h2>
+
+                    <div id="faq4" class="accordion-collapse collapse "
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur. Condimentum rhoncus amet tincidunt lacus sed consequat pretium et.
+                            Dui etiam viverra nunc ut non eu ut leo nec.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq5">
+
+                            Frequently asked questions
+                        </button>
+                    </h2>
+
+                    <div id="faq5" class="accordion-collapse collapse "
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur. Condimentum rhoncus amet tincidunt lacus sed consequat pretium et.
+                            Dui etiam viverra nunc ut non eu ut leo nec.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+<?php include 'includes/footer.php'; ?>
