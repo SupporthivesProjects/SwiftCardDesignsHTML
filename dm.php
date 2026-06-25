@@ -375,6 +375,10 @@
                     <div class="dm_product_card">
 
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
+
                             <img src=./img/image.png>
                         </div>
 
@@ -408,6 +412,9 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
@@ -439,38 +446,9 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
-                            <img src=./img/image.png>
-                        </div>
-
-                        <h4 class="dm_product_title">
-                            Book Title Goes Here In Two Lines Or Less
-                        </h4>
-
-                        <p class="dm_product_desc">
-                            Lorem ipsum dolor sit amet consectetur.
-                        </p>
-
-                        <div class="dm_product_price">
-                            $48.89
-                        </div>
-
-                        <div class="dm_product_footer">
-
-                            <a href="#" class="dm_btn">
-                                Learn More
-                            </a>
-
-                            <button class="dm_cart_btn">
-                                <img src="./img/cart_btn.svg" alt="" class="white_icon">
-                                <img src="./img/green_icon.svg" alt="" class="green_icon">
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="dm_product_card">
-                        <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
@@ -503,6 +481,9 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
@@ -535,6 +516,9 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
@@ -567,6 +551,9 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
@@ -599,6 +586,9 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
@@ -631,6 +621,44 @@
 
                     <div class="dm_product_card">
                         <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
+                            <img src=./img/image.png>
+                        </div>
+
+                        <h4 class="dm_product_title">
+                            Book Title Goes Here In Two Lines Or Less
+                        </h4>
+
+                        <p class="dm_product_desc">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+
+                        <div class="dm_product_price">
+                            $48.89
+                        </div>
+
+                        <div class="dm_product_footer">
+
+                            <a href="#" class="dm_btn">
+                                Learn More
+                            </a>
+
+                            <button class="dm_cart_btn">
+                                <img src="./img/cart_btn.svg" alt="" class="white_icon">
+                                <img src="./img/green_icon.svg" alt="" class="green_icon">
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="dm_product_card">
+                        <div class="dm_product_image">
+                                  <span class="dm_product_badge">
+                                E-BOOK
+                            </span>
                             <img src=./img/image.png>
                         </div>
 
