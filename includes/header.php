@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="uiframe/css/slick.css">
     <link rel="stylesheet" href="uiframe/css/slick-theme.css">
     <link rel="stylesheet" href="css/rstyle.css">
-    <link rel="stylesheet" href="tstyle.css">
+    <link rel="stylesheet" href="css/tstyle.css">
     <link rel="stylesheet" href="css/medhns.css">
     <link rel="stylesheet" href="css/dhiraj.css">
     <link rel="stylesheet" href="css/dhirajresponsive.css">
