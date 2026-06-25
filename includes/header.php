@@ -131,16 +131,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active"href="#">design Materials</a>
+                <a class="nav-link active"href="dm.php">design Materials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Bespoke design Services</a>
+                <a class="nav-link" href="bespoke.php">Bespoke design Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"href="#">About Us</a>
+                <a class="nav-link"href="about.php">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Get in touch</a>
+                <a class="nav-link" href="contact.php">Get in touch</a>
               </li>
             </ul>
             <div class="d-flex d-right-mo" role="search">

@@ -23,16 +23,16 @@
                     <div class="footer-menu">
                         <ul>
                             <li>
-                                <a href="">Design Resources</a>
+                                <a href="dm.php">Design Resources</a>
                             </li>
                             <li>
-                                <a href="">Bespoke design packages</a>
+                                <a href="bespoke.php">Bespoke design packages</a>
                             </li>
                             <li>
-                                <a href="story.php">Our Story</a>
+                                <a href="about.php">Our Story</a>
                             </li>
                             <li>
-                                <a href="contactus.php">Contact Us</a>
+                                <a href="contact.php">Contact Us</a>
                             </li>
                             <li>
                                 <a href="tc.php">Terms</a>
