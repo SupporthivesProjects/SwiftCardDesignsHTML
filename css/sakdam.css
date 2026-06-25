@@ -2087,7 +2087,7 @@ clip-path: polygon(
     }
 
     .about3_outer {
-        margin: 0px 8px;
+        padding: 0px 8px;
         min-height: max-content;
     }
 
